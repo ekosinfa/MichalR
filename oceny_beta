@@ -43,5 +43,13 @@ $licznikwag=0;
 	}
 $unrn = $licznikocen / $licznikwag;
 $rn= round($unrn,2);
-if()
+$oc= substr($rn,0,1);
+$pom=substr($rn,2,3);
+if($pom >=62){
+	$oc=$oc+1;
+}
+print $oc;
+
+
+
 // your code goes here
