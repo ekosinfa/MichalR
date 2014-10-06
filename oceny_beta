@@ -27,14 +27,21 @@ $oceny = array(
 'waga' => 3
 )
 );
-//Moj kod:
+
+
+//moje Zmienne
 $x =0;
 $licznikocen=0;
 $licznikwag=0;
-foreach($oceny as $ocena){
-	$x= $ocena['ocena'] * $ocena['waga'];
-	$licznikocen=$licznikocen + $x;
-	$licznikwag = $licznikwag +$ocena['waga'];
+
+//Moj kod	
+	foreach($oceny as $ocena){
+		$x= $ocena['ocena'] * $ocena['waga'];
+		$licznikocen=$licznikocen + $x;
+		$licznikwag = $licznikwag +$ocena['waga'];
+	
 	}
 $unrn = $licznikocen / $licznikwag;
-//Nie s
+$rn= round($unrn,2);
+if()
+// your code goes here
