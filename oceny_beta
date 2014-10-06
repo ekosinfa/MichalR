@@ -37,4 +37,4 @@ foreach($oceny as $ocena){
 	$licznikwag = $licznikwag +$ocena['waga'];
 	}
 $unrn = $licznikocen / $licznikwag;
-// your code goes here
+//Nie s
