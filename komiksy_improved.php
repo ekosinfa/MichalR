@@ -30,7 +30,7 @@ foreach($komiksy as $komiks){
 	if($komiks['gatunek'] == 'anime'){
 		$aniVAT += $komiks['egzemplarze_sprzedane']*$komiks['cena'];
 	}
-	if($komiks['gatunek'] == 'inne'){
+	if($komiks['gatunek'] != 'bohaterowie'||$komiks['gatunek'] != 'anime'){
 		$innVAT += $komiks['egzemplarze_sprzedane']*$komiks['cena'];
 	}
 }
