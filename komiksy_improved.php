@@ -20,8 +20,19 @@ $komiksy = array(
 		'tytul'=>'Jak poznałem Alexa',
 		'egzemplarze_sprzedane'=>'2891',
 		'cena'=>'12.44',
-		'gatunek'=>'inne')
+		'gatunek'=>'inne'),
+	"5"=>array(
+		'tytul'=>'Komedia jak z komedii',
+		'egzemplarze_sprzedane'=>'657',
+		'cena'=>'1.29',
+		'gatunek'=>'komedia'),
+	"6"=>array(
+		'tytul'=>'Niebo!',
+		'egzemplarze_sprzedane'=>'1000976',
+		'cena'=>'9.99',
+		'gatunek'=>'religia')
 	);
+
 
 foreach($komiksy as $komiks){
 	if($komiks['gatunek'] == 'bohaterowie'){
