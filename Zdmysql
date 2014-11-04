@@ -1,0 +1,18 @@
+
+10 największych miast
+SELECT * FROM City
+ORDER BY Population DESC
+LIMIT 10
+
+Ilość krajów w Europie Zachodniej:
+SELECT COUNT(Region) FROM Country
+WHERE Region = 'Western Europe'
+Liczba miast
+
+SELECT COUNT(*) FROM City
+
+Zaczynające się na kal
+SELECT * FROM City
+WHERE name LIKE 'Kal%'
+
+
